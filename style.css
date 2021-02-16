@@ -1,0 +1,40 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+canvas{
+    background:white;
+    border: 1px dashed;
+    margin: auto;
+}
+
+a {
+    display: inline-block;
+    background: #69c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+
+.pen-tools{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+}
+
+.fa-refresh{
+    margin-left: 10px;   
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+}
